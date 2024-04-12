@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cooking-Img */
+
+.cooking {
+  padding: 40px 20px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #7a3145;
+  margin: 0 auto;
+}
+
+.main-cooking-img {
+  border-radius: 30px;
+}
+
+/* It-Works */
+
+.it-works {
+  background: #576f35;
+  padding: 80px 20px;
+}
+
+.main-third-title {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.main-third-title-piece {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.main-text-third {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.main-works-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-works-item {
+  background: #fbfbfb;
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  list-style: none;
+  counter-increment: number;
+  position: relative;
+}
+
+.main-works-item::before {
+  content: counter(number);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 100%;
+  background-color: #7a3145;
+  border: 5px solid rgba(122, 49, 69, 0.3);
+}
+
+.main-works-item-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+.main-works-item-piece {
+  font-weight: 700;
+  color: #141414;
+}
